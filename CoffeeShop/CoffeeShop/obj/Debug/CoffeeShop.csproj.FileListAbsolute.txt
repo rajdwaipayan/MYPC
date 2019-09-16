@@ -2,8 +2,8 @@ F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\bin\Debug\CoffeeShop.exe.
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\bin\Debug\CoffeeShop.exe
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\bin\Debug\CoffeeShop.pdb
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.csprojResolveAssemblyReference.cache
-F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.Form1.resources
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.Properties.Resources.resources
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.csproj.GenerateResource.Cache
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.exe
 F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.pdb
+F:\Project\WindowsFormsApp3\MYPC\CoffeeShop\CoffeeShop\obj\Debug\CoffeeShop.Home.resources
