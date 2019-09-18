@@ -186,6 +186,7 @@
             this.AddressTextBox3.Name = "AddressTextBox3";
             this.AddressTextBox3.Size = new System.Drawing.Size(192, 20);
             this.AddressTextBox3.TabIndex = 0;
+            this.AddressTextBox3.TextChanged += new System.EventHandler(this.AddressTextBox3_TextChanged);
             // 
             // ContactTextBox2
             // 

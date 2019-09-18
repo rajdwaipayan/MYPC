@@ -15,8 +15,8 @@ namespace Assignment4
         List<string> names = new List<string> { };
         List<string> contacts = new List<string> { };
         List<string> addresses = new List<string> { };
-        List<string> items = new List<string> { };
         List<int> quantities = new List<int> { };
+        List<string> items = new List<string> { }; 
         List<int> prices = new List<int> { };
         List<int> totalPrices = new List<int> { };
 
@@ -73,7 +73,7 @@ namespace Assignment4
                     richTextBox1.Text += "Customer " + (i + 1) + "\n\n";
                     richTextBox1.Text += "Name: " + names[i] + "\n";
                     richTextBox1.Text += "Contact Number: " + contacts[i] + "\n\n";
-                    richTextBox1.Text += "Address is :" + addresses + "\n\n";
+                    richTextBox1.Text += "Address is :" + addresses[i]+ "\n\n";
                     richTextBox1.Text += "Total Price is: " + totalPrices[i]+"\n\n";
                     richTextBox1.Text += ":)";
                 }
@@ -104,7 +104,7 @@ namespace Assignment4
             {
 
 
-                AddCustomer(NameTextBox1.Text, ContactTextBox2.Text, AddressTextBox3.Text, Convert.ToInt32(QuantityTextBox5.Text), OrderComboBox1.Text);
+                AddCustomer(NameTextBox1.Text,ContactTextBox2.Text,AddressTextBox3.Text, Convert.ToInt32(QuantityTextBox5.Text), OrderComboBox1.Text);
 
             }
             else
@@ -120,7 +120,7 @@ namespace Assignment4
                 }
                 else if (String.IsNullOrEmpty(QuantityTextBox5.Text))
                 {
-                    MessageBox.Show("Enter Quanitity");
+                    MessageBox.Show("Fill the form correctly ");
 
                 }
                 return;
@@ -154,6 +154,11 @@ namespace Assignment4
                 e.Handled = true;
             }
             
+        }
+
+        private void AddressTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
